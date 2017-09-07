@@ -5,4 +5,5 @@
 #
 
 make-cadir ~/openvpn-ca
+chown -R vagrant ~/openvpn-ca/
 cp ./templates/openvpn-ca/vars ~/openvpn-ca/

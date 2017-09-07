@@ -5,4 +5,4 @@
 #
 
 apt-get update
-apt-get install openvpn easy-rsa -y
+apt-get install openvpn easy-rsa iptables -y
