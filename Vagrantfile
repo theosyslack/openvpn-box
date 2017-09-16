@@ -66,14 +66,14 @@ Vagrant.configure("2") do |config|
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
    cd ~/setup
-  #  sudo bash 1-before.sh
-  #  sudo bash 2-configure-ca-variables.sh
-  #  sudo bash 3-build-certificate-authority.sh
-  #  sudo bash 4-build-server-certificate.sh
-  #  sudo bash 5-build-client-certificate.sh
-  #  sudo bash 6-configure-openvpn.sh
-  #  sudo bash 7-adjust-network-configuration.sh
-  #  sudo bash 8-start-server.sh
-  #  sudo bash 9-build-client-configuration.sh
+   sudo bash 1-before.sh
+   sudo bash 2-configure-ca-variables.sh
+   sudo bash 3-build-certificate-authority.sh
+   sudo bash 4-build-server-certificate.sh
+   sudo bash 5-build-client-certificate.sh
+   sudo bash 6-configure-openvpn.sh
+   sudo bash 7-adjust-network-configuration.sh
+   sudo bash 8-start-server.sh
+   sudo bash 9-build-client-configuration.sh
   SHELL
 end
